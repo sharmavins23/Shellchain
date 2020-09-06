@@ -17,7 +17,7 @@ import java.util.Iterator;
  */
 public class QueryShellchain {
 
-    private String url;
+    private final String url;
     private HttpURLConnection httpClient;
     private boolean serverStatus;
 

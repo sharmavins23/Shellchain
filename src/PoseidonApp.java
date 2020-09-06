@@ -17,11 +17,11 @@ public class PoseidonApp extends javax.swing.JFrame {
             e.printStackTrace();
         }
 
-        accounts = new ArrayList<River>();
+        accounts = new ArrayList<>();
         accounts.add(new River("Poseidon", 0, 0));
         rebuildAccountComboBoxes();
 
-        mafias = new ArrayList<String>();
+        mafias = new ArrayList<>();
         mafias.add("Beta Cancri");
         mafias.add("Karka Rashi");
         mafias.add("Shiny Kinglers");
